@@ -1,0 +1,31 @@
+.home {
+    background-image:url("../../assets/homepagever.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.watch {
+        width: 200px;
+    }
+@media only screen and (max-width: 500px) {
+    .watch {
+        width: 0;
+    }
+}
+.workexperience {
+    display: flex;
+    gap: 5px;
+
+}
+.workexperiencedetails{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Verdana, sans-serif'; 
+}
+.workexperienceheaders{
+    font-family: 'Verdana, sans-serif'; 
+}
+.fix {
+    margin-top: 10px;
+}

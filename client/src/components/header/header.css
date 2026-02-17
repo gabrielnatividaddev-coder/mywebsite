@@ -1,0 +1,29 @@
+@media only screen and (max-width: 500px) {
+    .setimage {
+      width: 100px;
+    }
+    figcaption {
+        font-size: 10px;
+        width: 100px;
+    }
+    .rightsection {
+         text-align: end;
+    }
+    .itemsReact {
+        padding: 10px 4px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 627px) {
+    
+    .itemsReact {
+        padding: 10px 4px !important;
+    }
+  }
+      .itemsReact {
+        white-space: nowrap;
+    }
+    .rightsection { 
+          padding-top: 35px;
+    }
+  

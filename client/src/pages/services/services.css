@@ -1,0 +1,48 @@
+.home {
+    background-image:url("../../assets/homepagever.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+a {
+    color: blue;
+}
+    .card-list {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .card-container {
+        text-decoration: none;
+        color: black;
+        word-break: break-all;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        background-color:lightgray;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 25px;
+        cursor: pointer;
+        -moz-osx-font-smoothing: grayscale;
+        backface-visibility: hidden;
+        
+}
+.reduce{
+    margin-block-start:0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.reduceh{
+    margin-block-start:0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+            
+          
