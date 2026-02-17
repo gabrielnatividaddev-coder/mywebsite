@@ -8,7 +8,6 @@ import proup from '../../assets/proup.jpg';
 const HomeBodyMessageCSS = {
     color:'black', 
     padding: '5px',
-    // textAlign:'left',  
     fontSize: '18px',
     fontFamily: 'Verdana, sans-serif'
 }
