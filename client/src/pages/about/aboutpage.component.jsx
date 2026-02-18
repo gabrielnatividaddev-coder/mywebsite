@@ -5,8 +5,8 @@ import Samsung from '../../assets/samsung_electronics_logo.jpg';
 import Hypereonlabs from '../../assets/hypereonlabs_logo.jpg';
 import collabera from '../../assets/collabera_digital_logo.jpg';
 import JMD from '../../assets/javier.png';
-
 import proup from '../../assets/proup.jpg';
+
 const HomeBodyMessageCSS = {
     color:'black', 
     padding: '5px',
