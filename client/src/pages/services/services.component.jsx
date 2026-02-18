@@ -18,7 +18,7 @@ const ServicesPage = () => (<>
                 <a class="card-container" href ={"https://github.com/ricaricabile/boxing-news-website"}><img height="200" src={ReactWebsiteHeader1} ></img>
                     <p class="reduce">
                     <h4 class="reduceh">React Website Header 1</h4>
-                    This is an example on how to implement a header in React JS using CSS Libraries. The frontend used in this application is React JS and for the Backend Node JS with Express js framework. Website link: <a href={"https://basic-calculator-be080dcf00c0.herokuapp.com/"}>https://basic-calculator-be080dcf00c0.herokuapp.com/</a>
+                    This is an example on how to implement a header in React JS using CSS Libraries. Website link: <a href={"https://basic-calculator-be080dcf00c0.herokuapp.com/"}>https://basic-calculator-be080dcf00c0.herokuapp.com/</a>
                     Github link <a href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Header"}>https://github.com/gabrielnatividaddev-coder/React-Website-Header</a> 
                     </p>
                 </a>   
@@ -26,7 +26,7 @@ const ServicesPage = () => (<>
                 <a class="card-container" href ={"https://github.com/ricaricabile/boxing-news-website"}><img height="200" src={ReactWebsiteHeader2} ></img>
                     <p class="reduce">
                     <h4 class="reduceh">React Website Header 2</h4>
-                    This is an example on how to implement a header in React JS using CSS Libraries. The frontend used in this application is React JS and for the Backend Node JS with Express js framework.
+                    This is an example on how to implement a header in React JS using CSS Libraries.
                     Website link: <a href={"https://basic-calculator-be080dcf00c0.herokuapp.com/"}>https://basic-calculator-be080dcf00c0.herokuapp.com/</a>
                     Github link <a href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Header-2"}>https://github.com/gabrielnatividaddev-coder/React-Website-Header-2</a> 
                     </p>
@@ -35,7 +35,7 @@ const ServicesPage = () => (<>
                 <a class="card-container" href ={"https://github.com/ricaricabile/boxing-news-website"}><img height="200" src={ReactWebsiteSidebar1} ></img>
                     <p class="reduce">
                     <h4 class="reduceh">React Website Sidebar 1</h4>
-                    This is an example on how to implement a Sidebar in React JS using CSS Libraries. The frontend used in this application is React JS and for the Backend Node JS with Express js framework. 
+                    This is an example on how to implement a Sidebar in React JS using CSS Libraries.
                     Website link: <a href={"https://basic-calculator-be080dcf00c0.herokuapp.com/"}>https://basic-calculator-be080dcf00c0.herokuapp.com/</a>
                     Github link <a href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar"}>https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar</a> 
                     </p>
@@ -44,7 +44,7 @@ const ServicesPage = () => (<>
                 <a class="card-container" href ={"https://github.com/ricaricabile/boxing-news-website"}><img height="200" src={ReactWebsiteSidebar2} ></img>
                     <p class="reduce">
                     <h4 class="reduceh">React Website Sidebar 2</h4>
-                    This is an example on how to implement a Sidebar in React JS using CSS Libraries. The frontend used in this application is React JS and for the Backend Node JS with Express js framework.
+                    This is an example on how to implement a Sidebar in React JS using CSS Libraries. 
                     Website link: <a href={"https://basic-calculator-be080dcf00c0.herokuapp.com/"}>https://basic-calculator-be080dcf00c0.herokuapp.com/</a>
                     Github link <a href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar-2"}>https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar-2</a> 
                     </p>
