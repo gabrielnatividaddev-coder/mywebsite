@@ -4,32 +4,55 @@ import Header from '../../components/header/header.component';
 import Samsung from '../../assets/samsung_electronics_logo.jpg';
 import Hypereonlabs from '../../assets/hypereonlabs_logo.jpg';
 import collabera from '../../assets/collabera_digital_logo.jpg';
+import JMD from '../../assets/javier.png';
+
 import proup from '../../assets/proup.jpg';
 const HomeBodyMessageCSS = {
     color:'black', 
     padding: '5px',
     fontSize: '18px',
-    fontFamily: 'Verdana, sans-serif'
+    letterSpacing: '.5px',
+    lineHeight: '25px',
+    fontFamily: '"Times New Roman", Times, serif',
+    backgroundColor: 'white',
+    borderRadius: '5px'
 }
-const MainDivCSS = {
-    width: '100%', 
-    display: 'flex', 
-    justifyContent: 'space-around',
-    background: 'white'
+const AccomplishmentsCSS = {
+    fontFamily: '"Times New Roman", Times, serif',
+    backgroundColor: 'white',
+    borderRadius: '5px',
+    lineHeight: '30px',
+    padding: '10px'
 }
+
 const NestedDivCSS = {
-    width: '70%',
-    height:'100%', 
-    paddingLeft: '15px', 
-    paddingBottom: '30px',
-    alignSelf:'center',
-    zIndex: 123
+    paddingBottom: '40px',
+    paddingTop: '10px'
+};
+const CaptionStyleCSS = { 
+  fontFamily:'Snell Roundhand, cursive', 
+  fontWeight:'bold', 
+  fontStyle: 'italic', 
+  color: 'red', 
+  textAlign:'center', 
+  backgroundColor:'white'
+};
+const ImageStyleCSS = { 
+  verticalAlign: 'middle', 
+  border: '5px solid #FFFFFF',
+  filter: 'grayscale(25%)'
 };
 const AboutPage = () => (
     <div className='home' >
-        <Header />
-        <div style={MainDivCSS}>
+        <Header showPicture={true}/>
+        <div className='MainDivCSS'>
             <div style={NestedDivCSS}>
+                <div className='çenterimage'>
+                    <div>
+                    <img width="200" src={JMD} style={ImageStyleCSS}></img>
+                    <figcaption style={CaptionStyleCSS} >Gabriel Natividad</figcaption>
+                </div>
+                </div>
             <p style={HomeBodyMessageCSS}>
             Hi! Im Gabriel M. Nativdad, I have a degree in Computer Science, while studying 
             I also work for a consulting company that specializes in sales and operation tools in the construction industry 
@@ -38,15 +61,17 @@ const AboutPage = () => (
             and working experience in four different industries. My most current work experience was in Samsung please see in my work experience section on this page
             </p>
             <h3 className='workexperienceheaders'>Accomplishments: </h3>
-            • <span style={{color: 'red'}}>Samsung Web Developer (2023-2024)</span>.<br/>
-             ~<span style={{color: 'darkblue'}}>“TestDome” certified(Top 10%) for JavaScript, React, Node, PHP, ASP.NET core (MVC), Angular, TypeScript, SQL, C#, HTML, CSS.<br/></span>
-            • <span style={{color: 'gold'}}>Linkedin JavaScript skill-based assessment certified (Top 5%).</span><br/>
-            • Overall lead of 2 company projects(1. Backend API 2. Frontend Web), also involved in analysis and coding of other company projects (backend and frontend).(Sept 2020 - June 2021)<br/>
-            • Assigned 3 positions in the span of 8 months. (Sept 2020 - May 2021)<br/>
-            • One of the leaders with the most number of deployed defect fixes - Development Team Progress Board. (Sept 2020 - June 2021)<br/>
-            • Software Project Manager(Sept 2021 - March 2022)<br/>
-            • Consulting company in the construction industry - Researcher, Blueprint Maker, Plan Loader, Matrix Tracker, Data Model Logic. (June 2017, July 2020)<br/>
-            • BS in Computer Science (2014-2018)<br/>
+            <p style={AccomplishmentsCSS}>
+            •&nbsp; <span style={{color: 'red'}}>Samsung Web Developer (2023-2024)</span>.<br/>
+            •&nbsp; <span style={{color: 'darkblue'}}>“TestDome” certified(Top 10%) for JavaScript, React, Node, PHP, ASP.NET core (MVC), Angular, TypeScript, SQL, C#, HTML, CSS.<br/></span>
+            •&nbsp; <span style={{color: 'gold'}}>Linkedin JavaScript skill-based assessment certified (Top 5%).</span><br/>
+            •&nbsp; Overall lead of 2 company projects(1. Backend API 2. Frontend Web), also involved in analysis and coding of other company projects (backend and frontend).(Sept 2020 - June 2021)<br/>
+            •&nbsp; Assigned 3 positions in the span of 8 months. (Sept 2020 - May 2021)<br/>
+            •&nbsp; One of the leaders with the most number of deployed defect fixes - Development Team Progress Board. (Sept 2020 - June 2021)<br/>
+            •&nbsp; Software Project Manager(Sept 2021 - March 2022)<br/>
+            •&nbsp; Consulting company in the construction industry - Researcher, Blueprint Maker, Plan Loader, Matrix Tracker, Data Model Logic. (June 2017, July 2020)<br/>
+            •&nbsp; BS in Computer Science (2014-2018)<br/>
+            </p>
             <h3 className='workexperienceheaders'> Work Experience </h3>
             <div className='workexperience'>
             <img src={Samsung} width={'48px'} height="48px" ></img>

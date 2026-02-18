@@ -9,7 +9,7 @@
     .setimage {
       width: 100px;
     }
-    figcaption {
+    .setimagecaption {
         font-size: 10px;
         width: 100px;
     }

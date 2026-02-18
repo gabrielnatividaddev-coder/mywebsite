@@ -12,15 +12,11 @@ const HomeBodyMessageCSS = {
 }
 const MainDivCSS = {
     width: '100%', 
-    display: 'flex', 
-    justifyContent: 'space-around',
     zIndex: 123
 }
 const NestedDivCSS = {
-    width: '70%',
     height:'100%', 
     paddingLeft: '15px', 
-    alignSelf:'center',
     zIndex: 123
 };
 const astyles = {
@@ -28,10 +24,10 @@ const astyles = {
 };
 const HelpPage = () => (<>
     <div className='home' >
-        <Header />
+        <Header showPicture={true}/>
         <div style={MainDivCSS}>
             <div style={NestedDivCSS}>
-            
+
             <p style={HomeBodyMessageCSS}>
                 <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/calculator"}>https://github.com/gabrielnatividaddev-coder/calculator</a> <br/>
                <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/boxing-news-website"}>https://github.com/gabrielnatividaddev-coder/boxing-news-website</a><br/>
