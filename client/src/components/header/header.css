@@ -1,3 +1,10 @@
+.itemsReact {
+        white-space: nowrap;
+    }
+.rightsection { 
+          padding-top: 35px;
+          width: 200px;
+    }
 @media only screen and (max-width: 500px) {
     .setimage {
       width: 100px;
@@ -8,6 +15,7 @@
     }
     .rightsection {
          text-align: end;
+         width: 100px;
     }
     .itemsReact {
         padding: 10px 4px !important;
@@ -20,10 +28,5 @@
         padding: 10px 4px !important;
     }
   }
-      .itemsReact {
-        white-space: nowrap;
-    }
-    .rightsection { 
-          padding-top: 35px;
-    }
+
   

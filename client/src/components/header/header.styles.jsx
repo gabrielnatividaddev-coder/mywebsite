@@ -9,9 +9,10 @@ export const ProfilePictureContainer = styled(Link)`
 
 export const HeaderNavigator = styled.div`
   height: 70px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
+  overflow: 'hidden';
 `;
 
 export const NavItemsMenu = styled.div`
