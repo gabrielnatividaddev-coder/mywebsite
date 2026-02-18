@@ -8,6 +8,8 @@ a {
     color: blue;
 }
     .card-list {
+        /* width: 80%; */
+        width: 1200px;
         padding: 30px;
         display: flex;
         flex-direction: row;
@@ -15,6 +17,11 @@ a {
         justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
+    }
+    .outerservicesdiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .card-container {
         text-decoration: none;
