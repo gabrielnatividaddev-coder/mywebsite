@@ -26,7 +26,7 @@ const Header = ({showPicture}) => (
       <NavItemsMenu style={{zIndex: 123}}>
       <NavItems to='/' className='itemsReact'>HOME</NavItems>
       <NavItems to='/about' className='itemsReact'>ABOUT</NavItems>
-      <NavItems to='/services' className='itemsReact'>APPLICATIONS</NavItems>
+      <NavItems to='/services' className='itemsReact'>MY APPLICATIONS</NavItems>
       <NavItems to='/help' className='itemsReact'>LINKS</NavItems>
     </NavItemsMenu>
     <div className='rightsection'>

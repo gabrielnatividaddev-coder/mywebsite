@@ -36,13 +36,17 @@ const HelpPage = () => (<>
                 <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/calculator"}>https://github.com/gabrielnatividaddev-coder/calculator</a> <br/>
                <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/boxing-news-website"}>https://github.com/gabrielnatividaddev-coder/boxing-news-website</a><br/>
                <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/BMI-Calculator"}>https://github.com/gabrielnatividaddev-coder/BMI-Calculator</a> <br/>
-               <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/calculator"}>https://github.com/gabrielnatividaddev-coder/calculator</a> <br/>
-               <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-JS-Paint-Application"}>https://github.com/gabrielnatividaddev-coder/React-JS-Paint-Application</a> <br/>
-                <a style={astyles} href={'https://newsapi.org/'} >https://newsapi.org/</a><br/>
-               <a style={astyles} href={"https://fontawesome.com/download"}> https://fontawesome.com/download </a> <br/>
+               <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-JS-Paint-Application"}>https://github.com/gabrielnatividaddev-coder/React-JS-Paint-Application</a> <br/>      
+               <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar"}>https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar</a> <br/>
+               <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar-2"}>https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar-2</a><br/>
+               <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Header"}>https://github.com/gabrielnatividaddev-coder/React-Website-Header</a> <br/>
+               <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Header-2"}>https://github.com/gabrielnatividaddev-coder/React-Website-Header-2</a> <br/>     
+               <a style={astyles} href={'https://newsapi.org/'} >https://newsapi.org/</a><br/>
+               <a style={astyles} href={"https://tabler.io/icons"}> https://tabler.io/icons </a> <br/>
                <a style={astyles} href={"https://styled-components.com/"}> https://styled-components.com/ </a> <br/>
                <a style={astyles} href={"https://semantic-ui.com//"}> https://semantic-ui.com// </a> <br/>
                <a style={astyles} href={"https://react-redux.js.org/"}> https://react-redux.js.org/ </a> <br/>
+               <a style={astyles} href={"https://mantine.dev/getting-started/"}> https://mantine.dev/getting-started/ </a> <br/>
             </p>
             </div>
             <p style={{width: '200px'}}></p>
