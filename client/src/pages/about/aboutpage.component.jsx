@@ -6,7 +6,8 @@ import Hypereonlabs from '../../assets/hypereonlabs_logo.jpg';
 import collabera from '../../assets/collabera_digital_logo.jpg';
 import JMD from '../../assets/javier.png';
 import proup from '../../assets/proup.jpg';
-
+import testdome from '../../assets/testdome.png';
+import linkedinbadge from '../../assets/linkedinbadge.png';
 const HomeBodyMessageCSS = {
     color:'black', 
     padding: '5px',
@@ -156,8 +157,91 @@ const AboutPage = () => (
             <br/>CSS, Vanilla.js, SQL, SQL Server, Web Server, JQUERY, AJAX, SOAP, REST, Agile Work Flow)
             </p>
             </div>
+            <h3 className='workexperienceheaders'>Awards: </h3>
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             React – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/030137d1f1444b6198fd9d31a723bcb0'>https://app.testdome.com/cert/030137d1f1444b6198fd9d31a723bcb0</a>
+            </p>
             </div>
-            <p class="watch" ></p>
+
+
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             SQL – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/019a45ffe19a4bc9a2289158ef1f6c33'>https://app.testdome.com/cert/019a45ffe19a4bc9a2289158ef1f6c33</a>
+            </p>
+            </div>
+
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             JavaScript  – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/7c5bdf9e00b7485d89237af29ff43e28'>https://app.testdome.com/cert/7c5bdf9e00b7485d89237af29ff43e28</a>
+            </p>
+            </div>
+
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             HTML/CSS and JavaScript  – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/517d9140d677484fbabc23c657592120'>https://app.testdome.com/cert/517d9140d677484fbabc23c657592120</a>
+            </p>
+            </div>
+            
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             HTML/CSS, React, and Node.js  – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/06c651e124ad41eeaf06fe50d65e7e47'>https://app.testdome.com/cert/06c651e124ad41eeaf06fe50d65e7e47</a>
+            </p>
+            </div>
+
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             Node.js  – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/96efdb0e1b644deb83899504283e97ff'>https://app.testdome.com/cert/96efdb0e1b644deb83899504283e97ff</a>
+            </p>
+            </div>
+
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             Angular  – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/848e31b7011f4d7ca7f3cac87bb8e4b1'>https://app.testdome.com/cert/848e31b7011f4d7ca7f3cac87bb8e4b1</a>
+            </p>
+            </div>
+
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             ASP.NET (Core) MVC – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/d16f457e191e4e0495bd4594cc72625d'>https://app.testdome.com/cert/d16f457e191e4e0495bd4594cc72625d</a>
+            </p>
+            </div>
+
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             C# – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/a31d3d35a41a4c04beb344d74eaf3845'>https://app.testdome.com/cert/a31d3d35a41a4c04beb344d74eaf3845</a>
+            </p>
+            </div>
+
+            <div className='workexperience fix'>
+            <img src={testdome} width={'48px'} height="48px" ></img>
+            <p className='workexperiencedetails'>
+             PHP – TestDome (Top 10%)
+             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/8bb37ae534ec40cd9fa2178999adecfb'>https://app.testdome.com/cert/8bb37ae534ec40cd9fa2178999adecfb</a>
+            </p>
+            </div>
+
+            <h3 className='workexperienceheaders'>LinkedIn JavaScript Certificatoin: </h3>
+            <img src={linkedinbadge} width={'266.88px'} height="362.88px" ></img>
+            </div>
         </div>
     </div>
 );
